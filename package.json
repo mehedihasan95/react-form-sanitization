@@ -1,0 +1,44 @@
+{
+  "name": "react-form-sanitization",
+  "version": "1.0.0",
+  "description": "Only form data generation and form value sanitization are done with this package.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehedihasan95/react-form-sanitization.git"
+  },
+  "keywords": [
+    "[\"react\"",
+    "\"react-form\"",
+    "\"react",
+    "form",
+    "sanitization\"]"
+  ],
+  "author": "Mehedi Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehedihasan95/react-form-sanitization/issues"
+  },
+  "homepage": "https://github.com/mehedihasan95/react-form-sanitization#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "rollup": "^4.24.3"
+  }
+}
